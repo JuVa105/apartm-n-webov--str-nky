@@ -1,0 +1,269 @@
+/* ************ layout start ************* */
+@media (min-width: 1200px) {
+    .pt-xl-6,
+    .py-xl-6 {
+      padding-top: 5rem !important;
+    }
+
+    .pr-xl-6,
+    .px-xl-6 {
+      padding-right: 5rem !important;
+    }
+
+    .pb-xl-6,
+    .py-xl-6 {
+      padding-bottom: 5rem !important;
+    }
+
+    .pl-xl-6,
+    .px-xl-6 {
+      padding-left: 5rem !important;
+    }
+}
+
+/* ************ layout end ************* */
+/* ********* Fonty start ********** */
+h1 {
+    font-family: 'Cinzel', serif;
+    
+}
+h2 {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    
+}
+h5 {
+    font-family: 'Cinzel', serif;
+    
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    
+}
+/* ********* Fonty konec ********** */
+
+/* ********* Pozadí začátek ********** */
+.background-svetleruzova {
+    background-color: #FBEAEA;
+  }
+  .background-tmaveruzova {
+    background-color:#C07079;
+  }
+  .tmaveruzova {
+    color: #C07079;
+  }
+/* ********* Pozadí konec ********** */
+
+/* ********* Navigační lišta start ********** */
+
+.logo {
+    
+    max-width: 64vw;
+    width: 100%;
+}
+.nav-item {
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+.nav-link {
+    transition: all 0.4s ease-in-out;
+}
+.nav-link:hover {
+    color: #C07079 ;
+}
+.nav-item .tlacitko {
+    text-decoration: none;
+    color: white;
+    background-color: #58C1BB;
+    padding: 0.5rem 1rem;
+    border-radius: 3rem;
+    transition: all 0.5s ease-in-out;
+   
+}
+.nav-item .tlacitko:hover {
+    background-color: #C07079;
+}
+.nav-link.active {
+    color: #C07079 !important;
+}
+
+/* ********* Navigační lišta konec ********** */
+
+/* ********* Hero start ********** */
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/background.jpg');
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* ********* Hero konec ********** */
+
+/* ********* Vybavení start ********** */
+.vybaveni h2 {
+    color: #C07079;
+    text-align: center;
+}
+.vybaveni {
+    background-color: #FBEAEA;
+
+}
+.vybaveni .tlacitko {
+    text-decoration: none;
+    color: white;
+    background-color: #C07079;
+    padding: 0.5rem 1rem;
+    border-radius: 3rem;
+    transition: all 0.5s ease-in-out;
+    
+}
+.vybaveni .tlacitko:hover {
+    background-color: #58C1BB;
+}
+.vybaveni p {
+    text-align: center;
+}
+/* ********* Vybavení konec ********** */
+
+/* ********* Hlavní karty start ********** */
+.hlavni-karty .card-img-top {
+    max-width: 25%;
+   
+}
+.card-text {
+    text-align: center;
+}
+.hlavni-karty
+{
+    background-color: #C07079;
+}
+.hlavni-karty .card {
+    border-radius: 0%;
+    box-shadow: 12px 10px 34px 4px rgba(0,0,0,0.2);
+
+}
+/* ********* Hlavní karty konec ********** */
+
+/* ********* O městě Polná start ********** */
+.pametihodnosti {
+    text-align: center;
+}
+.pametihodnosti h2 {
+    color: #58C1BB;
+}
+.pametihodnosti .tlacitko {
+
+ text-decoration: none;
+    color: white;
+    background-color: #58C1BB;
+    padding: 0.5rem 1rem;
+    border-radius: 3rem;
+    transition: all 0.5s ease-in-out;
+   
+}
+.pametihodnosti .tlacitko:hover {
+    background-color: #C07079;
+}
+/* ********* O městě Polná konec ********** */
+
+/* ********* Výlety začátek ********** */
+/* ********* Výlety konec ********** */
+
+/* ********* Mapa začátek ********** */
+.google-mapa {
+   
+    padding-bottom: 30%;
+    position: relative;
+}
+
+.google-mapa iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+/* ********* Mapa konec ********** */
+
+/* ********* Patička začátek ********** */
+.paticka {
+    background-color: #C07079;
+    color: #FBEAEA;
+}
+.paticka img {
+    width: 80%;
+}
+
+/* ********* Patička konec ********** */
+
+
+
+
+
+
+
+
+/* ********* VYBAVENÍ ********** */
+
+
+/* ********* Hero začátek ********** */
+.vybaveni-obrazek {
+    height: 50vh;
+    
+}
+
+.hero-vybaveni {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/vybaveni-loznice-2.jpg');
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    
+  }
+
+  
+/* ********* Hero konec ********** */
+
+/* ********* Vybaveni karty začátek ********** */
+.vybaveni-karty .card {
+    border: 0px;
+    box-shadow: 10px 10px 35px -16px rgba(0,0,0,1);
+    text-align: center;
+
+}
+.vybaveni-text {
+   text-align: center;
+}
+/* ********* Vybavení karty konec ********** */
+
+
+
+
+
+
+/* ********* REZERVACE ********** */
+
+/* ********* Ceník začátek ********** */
+.cenik th {
+    padding-right: 6rem;
+}
+
+/* ********* Ceník konec ********** */
+
+/* ********* Rezervace začátek ********** */
+.rezervace {
+    text-align: center;
+}
+
+/* ********* Rezervace konec ********** */
