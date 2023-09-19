@@ -1,4 +1,5 @@
-/* ************ layout start ************* */
+/* ************ layout začátek ************* */
+
 @media (min-width: 1200px) {
     .pt-xl-6,
     .py-xl-6 {
@@ -21,8 +22,10 @@
     }
 }
 
-/* ************ layout end ************* */
-/* ********* Fonty start ********** */
+/* ************ layout konec ************* */
+
+/* ********* Fonty začátek ********** */
+
 h1 {
     font-family: 'Cinzel', serif;
     
@@ -41,9 +44,11 @@ p {
     font-family: 'Raleway', sans-serif;
     
 }
+
 /* ********* Fonty konec ********** */
 
-/* ********* Pozadí začátek ********** */
+/* ********* Barvy pozadí a nadpisů začátek ********** */
+
 .background-svetleruzova {
     background-color: #FBEAEA;
   }
@@ -53,10 +58,19 @@ p {
   .tmaveruzova {
     color: #C07079;
   }
-/* ********* Pozadí konec ********** */
+  .svetleruzova {
+    color: #FBEAEA;
+  }
+  .tyrkysova {
+    color: #58C1BB;
+  }
+
+/* ********* Barvy pozadí a nadpisů konec ********** */
 
 /* ********* Navigační lišta start ********** */
-
+.collapse {
+    z-index: 1;
+}
 .logo {
     
     max-width: 64vw;
@@ -104,22 +118,16 @@ p {
 .hero-text {
   text-align: center;
   position: absolute;
-  top: 70%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  z-index: 0;
 }
 /* ********* Hero konec ********** */
 
 /* ********* Vybavení start ********** */
-.vybaveni h2 {
-    color: #C07079;
-    text-align: center;
-}
-.vybaveni {
-    background-color: #FBEAEA;
 
-}
 .vybaveni .tlacitko {
     text-decoration: none;
     color: white;
@@ -145,10 +153,7 @@ p {
 .card-text {
     text-align: center;
 }
-.hlavni-karty
-{
-    background-color: #C07079;
-}
+
 .hlavni-karty .card {
     border-radius: 0%;
     box-shadow: 12px 10px 34px 4px rgba(0,0,0,0.2);
@@ -160,9 +165,7 @@ p {
 .pametihodnosti {
     text-align: center;
 }
-.pametihodnosti h2 {
-    color: #58C1BB;
-}
+
 .pametihodnosti .tlacitko {
 
  text-decoration: none;
@@ -178,30 +181,8 @@ p {
 }
 /* ********* O městě Polná konec ********** */
 
-/* ********* Výlety začátek ********** */
-/* ********* Výlety konec ********** */
-
-/* ********* Mapa začátek ********** */
-.google-mapa {
-   
-    padding-bottom: 30%;
-    position: relative;
-}
-
-.google-mapa iframe {
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
-}
-/* ********* Mapa konec ********** */
-
 /* ********* Patička začátek ********** */
-.paticka {
-    background-color: #C07079;
-    color: #FBEAEA;
-}
+
 .paticka img {
     width: 80%;
 }
@@ -236,15 +217,17 @@ p {
 /* ********* Hero konec ********** */
 
 /* ********* Vybaveni karty začátek ********** */
+
+.vybaveni-text {
+    text-align: center;
+ }
 .vybaveni-karty .card {
     border: 0px;
     box-shadow: 10px 10px 35px -16px rgba(0,0,0,1);
     text-align: center;
 
 }
-.vybaveni-text {
-   text-align: center;
-}
+
 /* ********* Vybavení karty konec ********** */
 
 
@@ -267,3 +250,19 @@ p {
 }
 
 /* ********* Rezervace konec ********** */
+
+/* ********* Mapa začátek ********** */
+.google-mapa {
+   
+    padding-bottom: 30%;
+    position: relative;
+}
+
+.google-mapa iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+/* ********* Mapa konec ********** */
